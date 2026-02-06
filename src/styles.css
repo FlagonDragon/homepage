@@ -1,3 +1,65 @@
 * {
-    background-color: mediumorchid;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-top: 0px;
+}
+
+.top {
+    background-color: greenyellow;
+    height: 33.3333vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+#about {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.mid {
+    background-color: peachpuff;
+    height: 33.3333vh;
+}
+
+.projectsDiv {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    height: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    border: 3px solid green;
+} 
+
+.bot {
+    background-color: dodgerblue;
+    height: 33.3333vh;
 }
