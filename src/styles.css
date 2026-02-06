@@ -13,9 +13,10 @@ body {
 
 .top {
     background-color: greenyellow;
-    height: 33.3333vh;
+    height: auto;
     margin: 0;
-    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 200px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -23,12 +24,12 @@ body {
 }
 
 img {
-    height: 100px;
+    height: 750px;
     width: auto;
+    margin-bottom: 50px;
 }
 
-#about {
-    max-width: 500px;
+.aboutDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,29 +38,45 @@ img {
 h2 {
     text-align: center;
     border: 2px solid red;
+    width: 600px;
+    font-size: 70px;
+}
+
+#about {
+    max-width: 540px;
+    font-size: 45px;
+    line-height: 60px;
 }
 
 .mid {
     background-color: peachpuff;
-    height: 33.3333vh;
+    height: auto;
 }
 
 .projectsDiv {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
+    padding: 30px;
 }
 
 .card {
-    height: 100px;
+    height: 800px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     border: 3px solid green;
 } 
 
+.card div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+}
+
 .bot {
     background-color: dodgerblue;
-    height: 33.3333vh;
+    height: 1500px;
 }
