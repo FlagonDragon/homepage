@@ -7,7 +7,6 @@
 body {
     margin: 0;
     padding: 0;
-    border: 5px solid red;
 }
 
 .heading {
@@ -18,7 +17,6 @@ body {
     background-color: greenyellow;
     height: auto;
     margin: 0;
-    padding-top: 40px;
     padding-bottom: 200px;
     display: flex;
     flex-direction: column;
@@ -26,7 +24,16 @@ body {
     align-items: center;
 }
 
-#img1Div img {
+#img1Div {
+    background-color: greenyellow;
+    background-image: -webkit-linear-gradient(130deg, white 50%, blue 50%);
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
     height: 750px;
     width: auto;
     margin-bottom: 50px;
@@ -103,8 +110,6 @@ h2 {
 
 .bot {
     background-color: dodgerblue;
-    padding-bottom: -100px;
-    margin-bottom: -100px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -129,13 +134,6 @@ h2 {
     font-size: 40px;
 }
 
-#img2Div {
-    padding: 0px;
-    margin: 0px;
-    border: 5px solid green;
-}
-
-#img2Div img{
-    width: 600px;
-    /* width: 50px; */
+#img2 {
+    width: 100%;
 }
