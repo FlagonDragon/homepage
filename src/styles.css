@@ -1,10 +1,13 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     margin: 0;
     padding: 0;
+    border: 5px solid red;
 }
 
 .heading {
@@ -23,7 +26,7 @@ body {
     align-items: center;
 }
 
-img {
+#img1Div img {
     height: 750px;
     width: auto;
     margin-bottom: 50px;
@@ -33,13 +36,15 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 5px solid fuchsia;
 }
 
 h2 {
+    align-self: center;
     text-align: center;
     border: 2px solid red;
-    width: 600px;
     font-size: 70px;
+    margin: 0px;
 }
 
 #about {
@@ -62,21 +67,75 @@ h2 {
 }
 
 .card {
-    height: 800px;
+    height: 750px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
     grid-template-columns: 1fr;
     border: 3px solid green;
 } 
 
 .card div {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     border: 3px solid red;
+    align-items: center;
+}
+
+.cardTop {
+    justify-content: center;
+    background-color: mediumpurple;
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+
+.cardBot {
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 40px;
+}
+
+.cardBot p {
+    color: dimgray ;
+    font-size: 35px;
+    align-self: start;
 }
 
 .bot {
     background-color: dodgerblue;
-    height: 1500px;
+    padding-bottom: -100px;
+    margin-bottom: -100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactDiv {
+    color: white;
+    border: 5px solid fuchsia;
+    margin: 0px 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: start;
+}
+
+.contactDiv p {
+    margin: 20px 0px;
+}
+
+#contact1 {
+    font-size: 40px;
+}
+
+#img2Div {
+    padding: 0px;
+    margin: 0px;
+    border: 5px solid green;
+}
+
+#img2Div img{
+    width: 600px;
+    /* width: 50px; */
 }
