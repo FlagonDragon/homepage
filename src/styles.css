@@ -19,7 +19,7 @@ body {
     color: dimgray;
     height: auto;
     margin: 0;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -76,11 +76,30 @@ h2 {
     font-weight: lighter;
 }
 
-#about {
+#about1 {
     margin-top: 20PX;
     max-width: 540px;
     font-size: 38px;
     line-height: 60px;
+}
+
+#about2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.icons1 {
+    height: 60px;
+    width: auto;
+    margin: 25px 20px;
+}
+
+#bird1 {
+    height: 80px;
+    width: auto;
+    margin: 15px 15px;
 }
 
 .mid {
@@ -165,7 +184,7 @@ h2 {
     /* border: 5px solid fuchsia; */
     margin: 0px 30px;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     font-size: 30px;
     display: flex;
     flex-direction: column; 
@@ -181,9 +200,29 @@ h2 {
 }
 
 #contact1 {
-    font-size: 40px;
+    font-size: 38px;
+}
+
+#contact4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.icons2 {
+    height: 80px;
+    width: auto;
+    margin: 25px;
+}
+
+#bird2 {
+    height: 100px;
+    width: auto;
+    margin: 15px 20px;
 }
 
 #img2 {
     width: 100%;
 }
+
