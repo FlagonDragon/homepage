@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', 'Playfair Display';
 }
 
 body {
@@ -48,6 +49,15 @@ body {
     bottom: 40px;
 }
 
+#imgText {
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    font-family: 'Playfair Display';
+    top: 200px;
+    left: 70px;
+}
+
 .aboutDiv {
     display: flex;
     flex-direction: column;
@@ -58,15 +68,18 @@ body {
 h2 {
     color: black;
     /* border: 2px solid red; */
-    font-size: 70px;
+    font-size: 75px;
     margin: 0px;
     align-self: center;
     text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: lighter;
 }
 
 #about {
+    margin-top: 20PX;
     max-width: 540px;
-    font-size: 45px;
+    font-size: 38px;
     line-height: 60px;
 }
 
@@ -95,14 +108,16 @@ h2 {
     display: flex;
     flex-direction: column;
     /* border: 3px solid red; */
-    align-items: center;
+    align-items: start;
+    font-family: 'Playfair Display';
 }
 
 .cardTop {
-    justify-content: center;
     color: white;
+    font-size: 75px;
+    padding: 50px;
     text-align: center;
-    font-size: 90px;
+    justify-content: center;
 }
 
 #card1 .cardTop {
@@ -132,8 +147,9 @@ h2 {
 
 .cardBot p {
     color: dimgray ;
-    font-size: 35px;
+    font-size: 29px;
     align-self: start;
+    margin-top: 20px;
 }
 
 .bot {
@@ -154,6 +170,10 @@ h2 {
     display: flex;
     flex-direction: column; 
     justify-content: start;
+}
+
+.contactDiv h2 {
+    color: white;
 }
 
 .contactDiv p {
