@@ -105,6 +105,7 @@ h2 {
 .mid {
     background-color: white;
     height: auto;
+    padding-bottom: 250px;
 }
 
 .projectsDiv {
@@ -123,20 +124,16 @@ h2 {
     border: 3px solid black;
 } 
 
-.card div {
-    display: flex;
-    flex-direction: column;
-    /* border: 3px solid red; */
-    align-items: start;
-    font-family: 'Playfair Display';
-}
-
 .cardTop {
     color: white;
     font-size: 75px;
-    padding: 50px;
     text-align: center;
+    padding: 50px;
+    font-family: 'Playfair Display';
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: start;
 }
 
 #card1 .cardTop {
@@ -160,15 +157,40 @@ h2 {
 
 .cardBot {
     background-color: white;
-    padding: 20px 40px;
+    padding: 20px 20px;
     font-size: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.project1 {
+    font-family: 'Playfair Display';
+    margin-left: 40px;
+    /* border: 2px solid blue; */
+}
+
+.project2 {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+}
+
+.icons2 {
+    height: 40px;
+    margin: 5px 10px; 
 }
 
 .cardBot p {
     color: dimgray ;
     font-size: 29px;
-    align-self: start;
+    /* align-self: start; */
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .bot {
@@ -210,7 +232,7 @@ h2 {
     margin-left: 15px;
 }
 
-.icons2 {
+.icons3 {
     height: 80px;
     width: auto;
     margin: 25px;
