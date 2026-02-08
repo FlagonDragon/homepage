@@ -14,7 +14,8 @@ body {
 }
 
 .top {
-    background-color: greenyellow;
+    background-color: white;
+    color: dimgray;
     height: auto;
     margin: 0;
     padding-bottom: 200px;
@@ -24,34 +25,43 @@ body {
     align-items: center;
 }
 
+#colorBlock {
+    background-color: darkcyan;
+    height: 340px;
+    width: 100%;
+}
+
 #img1Div {
-    background-color: greenyellow;
-    background-image: -webkit-linear-gradient(130deg, white 50%, blue 50%);
+    background-image: -webkit-linear-gradient(120deg, white 50%, darkcyan 50%);
+    height: 500px;
     width: 100%;
     padding-top: 40px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 #img1 {
     height: 750px;
     width: auto;
-    margin-bottom: 50px;
+    position: absolute;
+    bottom: 40px;
 }
 
 .aboutDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid fuchsia;
+    /* border: 5px solid fuchsia; */
 }
 
 h2 {
-    align-self: center;
-    text-align: center;
-    border: 2px solid red;
+    color: black;
+    /* border: 2px solid red; */
     font-size: 70px;
     margin: 0px;
+    align-self: center;
+    text-align: center;
 }
 
 #about {
@@ -61,7 +71,7 @@ h2 {
 }
 
 .mid {
-    background-color: peachpuff;
+    background-color: white;
     height: auto;
 }
 
@@ -69,7 +79,7 @@ h2 {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 100px;
     padding: 30px;
 }
 
@@ -78,22 +88,40 @@ h2 {
     display: grid;
     grid-template-rows: 3fr 2fr;
     grid-template-columns: 1fr;
-    border: 3px solid green;
+    border: 3px solid black;
 } 
 
 .card div {
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     align-items: center;
 }
 
 .cardTop {
     justify-content: center;
-    background-color: mediumpurple;
     color: white;
     text-align: center;
     font-size: 90px;
+}
+
+#card1 .cardTop {
+    background-color: mediumpurple;
+}
+#card2 .cardTop {
+    background-color: goldenrod;
+}
+#card3 .cardTop {
+    background-color: olivedrab;
+}
+#card4 .cardTop {
+    background-color: violet;
+}
+#card5 .cardTop {
+    background-color: cornflowerblue;
+}
+#card6 .cardTop {
+    background-color: maroon;
 }
 
 .cardBot {
@@ -118,8 +146,10 @@ h2 {
 
 .contactDiv {
     color: white;
-    border: 5px solid fuchsia;
+    /* border: 5px solid fuchsia; */
     margin: 0px 30px;
+    margin-top: 50px;
+    margin-bottom: 200px;
     font-size: 30px;
     display: flex;
     flex-direction: column; 
