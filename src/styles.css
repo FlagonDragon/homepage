@@ -105,6 +105,7 @@ h2 {
 .mid {
     background-color: white;
     height: auto;
+    width: 100%;
     padding-bottom: 250px;
 }
 
@@ -114,6 +115,7 @@ h2 {
     grid-template-columns: 1fr;
     gap: 100px;
     padding: 30px;
+    width: 100%;
 }
 
 .card {
@@ -275,3 +277,43 @@ h2 {
     width: 100%;
 }
 
+@media (max-width: 320px) {
+
+.bot {
+    background-color: yellow;
+}
+
+}
+
+@media (min-width: 60000px) {
+
+.bot {
+    background-color: lawngreen;
+}
+
+.projectsDiv {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    height: 300px;
+}
+
+.cardTop {
+    font-size: 35px;
+    padding: 10px;
+}
+
+}
+
+@media (min-width: 120000px) {
+
+.bot {
+    background-color: hotpink;
+}
+
+}
