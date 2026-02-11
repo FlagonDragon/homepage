@@ -215,11 +215,11 @@ h2 {
 .contactDiv {
     color: white;
     /* border: 5px solid fuchsia; */
-    margin: 0px 30px;
-    margin-top: 50px;
-    margin-bottom: 150px;
-    padding: 0px 30px;
-    font-size: 30px;
+    /* margin: 0px 500px; */
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding: 0px 15px;
+    font-size: 15px;
     display: flex;
     flex-direction: column; 
     justify-content: start;
@@ -231,7 +231,8 @@ h2 {
 } */
 
 .contactDiv h2 {
-    color: white;
+    color: #ffffff;
+    margin: 5px 0px;
 }
 
 .contactDiv p {
@@ -239,7 +240,8 @@ h2 {
 }
 
 #contact1 {
-    font-size: 38px;
+    font-size: 19px;
+    margin: 5px 0px;
 }
 
 #contact3 {
@@ -251,54 +253,50 @@ h2 {
     display: flex;
     flex-direction: row;
     margin-right: 20px;
+    margin-left: -8px;
     padding: 0;
     justify-content: start;
     align-items: center;
+    /* border: 3px solid red; */
 }
 
 #phone, #email {
     height: 50px;
     color: white;
     margin: 0;
+    display: none;
 }
 
 #contact4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: 10px;
 }
 
 .icons3 {
-    height: 80px;
+    height: 38px;
     width: auto;
-    margin: 25px;
+    margin: 30px 15px;
 }
 
 #bird2 {
-    height: 100px;
+    height: 55px;
     width: auto;
-    margin: 15px 20px;
+    margin: 20px 10px;
 }
 
 #img2 {
     width: 100%;
 }
 
-@media (max-width: 310px) {
-
-.bot {
-    background-color: yellow;
-}
-
-}
-
-@media (min-width: 60000px) {
+@media (min-width: 600px) {
 
 .bot {
     background-color: lawngreen;
 }
 
-.projectsDiv {
+/* .projectsDiv {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr 1fr;
@@ -313,9 +311,9 @@ h2 {
 .cardTop {
     font-size: 35px;
     padding: 10px;
-}
+} */
 
-}
+} 
 
 @media (min-width: 120000px) {
 
