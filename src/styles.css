@@ -305,7 +305,7 @@ h2 {
     width: 100%;
 }
 
-@media (min-width: 585px) {
+@media (min-width: 600px) {
 
 #colorBlock {
     display: flex;
@@ -430,7 +430,24 @@ h2 {
 
 } 
 
-@media (min-width: 1200px) {
+
+@media (min-width: 1220px) {
+
+.projectsDiv {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 0px;
+    max-width: 1300px;
+}
+
+.mid h2 {
+    /* border: 5px solid red; */
+    width: 100%;
+    text-align: start;
+    max-width: 1270px;
+    padding-left: 70px;
+    margin: 0px 80px;
+}
 
 .bot {
     background-color: hotpink;
