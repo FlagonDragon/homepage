@@ -305,6 +305,10 @@ h2 {
     width: 100%;
 }
 
+
+/* TABLET */
+
+
 @media (min-width: 600px) {
 
 #colorBlock {
@@ -327,7 +331,7 @@ h2 {
     width: 80%;
     max-width: 750px;
     padding-bottom: 60px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     box-shadow: 1px 1px 20px -10px;
     display: block;
     position: absolute;
@@ -431,7 +435,79 @@ h2 {
 } 
 
 
+/* DESKTOP */
+
+
 @media (min-width: 1220px) {
+
+#img1Container {
+    background-image: -webkit-linear-gradient(101deg, white 50%, darkcyan 50%);
+    /* background-image: url(fox1Sqr.jpg); */
+    padding-bottom: 400px;
+}
+
+/* #img1 {
+    background-image: url(fox1Sqr.jpg);
+    height: 370px;
+    width: 300px;
+    bottom: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border: 5px solid red;
+    z-index: 5;
+    left: 50px;
+} */
+
+.aboutDiv {
+    /* background-color: white; */
+    width: 85%;
+    max-width: 1050px;
+    height: 410px;
+    /* padding-bottom: 60px;
+    border: 3px solid black;
+    box-shadow: 1px 1px 20px -10px;
+    display: block;
+    position: absolute;
+    top: 150px; */
+    display: block;
+    padding-left: 0px;
+    /* transform: scale(1.2); */
+}
+
+#floatSqr {
+    /* display: none; */
+    float: left;
+    transform: scale(1.6);
+    transform-origin: right;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    /* border: 3px solid green; */
+    z-index: 1;
+}
+
+.aboutDiv h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    /* border: 3px solid red; */
+    text-align: start;
+}
+
+#about1 {
+    font-size: 21px;
+}
+
+#about2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: end;
+    /* border: 3px solid red; */
+}
 
 .projectsDiv {
     grid-template-rows: 1fr 1fr;
