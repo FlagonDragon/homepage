@@ -444,13 +444,45 @@ h2 {
     /* border: 5px solid red; */
     width: 100%;
     text-align: start;
-    max-width: 1270px;
-    padding-left: 70px;
+    max-width: 1275px;
+    padding-left: 65px;
     margin: 0px 80px;
+}
+
+.cardBot, .cardTop {
+    max-width: 320px;
 }
 
 .bot {
     background-color: hotpink;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactDiv {
+    transform: scale(1.2);
+    /* margin: 30px 60px; */
+    max-width: 350px;
+}
+
+#contact3 {
+    gap: 10px;
+    margin-left: -3px;
+}
+
+#phone, #email {
+    height: 25px;
+}
+
+#img2Div {
+    background-image: url(foxWide.jpg);
+    background-position: top;
+    height: 400px;
+    width: 700px;
+    margin-left: 50PX;
+    /* border: 5px solid red; */
 }
 
 }
