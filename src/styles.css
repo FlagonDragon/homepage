@@ -442,37 +442,32 @@ h2 {
 
 #img1Container {
     background-image: -webkit-linear-gradient(101deg, white 50%, darkcyan 50%);
-    /* background-image: url(fox1Sqr.jpg); */
-    padding-bottom: 400px;
+    padding-bottom: 500px;
 }
 
-/* #img1 {
-    background-image: url(fox1Sqr.jpg);
-    height: 370px;
-    width: 300px;
-    bottom: 100px;
-    display: flex;
-    justify-content: start;
-    align-items: end;
-    border: 5px solid red;
-    z-index: 5;
-    left: 50px;
-} */
 
 .aboutDiv {
-    /* background-color: white; */
     width: 85%;
     max-width: 1050px;
     height: 410px;
-    /* padding-bottom: 60px;
-    border: 3px solid black;
-    box-shadow: 1px 1px 20px -10px;
-    display: block;
-    position: absolute;
-    top: 150px; */
     display: block;
     padding-left: 0px;
-    /* transform: scale(1.2); */
+}
+
+#imgText2 {
+    display: none;
+}
+
+#imgText3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    position: absolute;
+    top: 245px;
+    left: 10px;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+    z-index: 10;
 }
 
 #floatSqr {
@@ -500,13 +495,13 @@ h2 {
 
 #about1 {
     font-size: 21px;
+    margin-bottom: 63px;
 }
 
 #about2 {
-    margin-top: 80px;
     display: flex;
     justify-content: end;
-    /* border: 3px solid red; */
+    padding-right: 5px;
 }
 
 .projectsDiv {
