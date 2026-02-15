@@ -22,7 +22,6 @@ body {
     padding-bottom: 65px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -33,7 +32,7 @@ body {
 }
 
 #img1Container {
-    background-image: -webkit-linear-gradient(120deg, white 50%, darkcyan 50%);
+    background-image: -webkit-linear-gradient(118deg, white 50%, darkcyan 50%);
     height: 325px;
     width: 100%;
     padding-top: 0px;
@@ -54,7 +53,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: end;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 #imgText {
@@ -65,6 +64,10 @@ body {
 }
 
 #imgText2 {
+    display: none;
+}
+
+#imgText3 { 
     display: none;
 }
 
@@ -95,7 +98,6 @@ h2 {
     /* max-width: 300px; */
     font-size: 19px;
     line-height: 28px;
-    /* text-align: justify; */
 }
 
 #about2 {
@@ -183,7 +185,7 @@ h2 {
 
 .cardBot, .cardTop {
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
 }
 
 .project {
@@ -230,7 +232,6 @@ h2 {
 .contactDiv {
     color: white;
     /* border: 5px solid fuchsia; */
-    /* margin: 0px 500px; */
     margin-top: 15px;
     margin-bottom: 40px;
     padding: 0px 15px;
@@ -240,10 +241,6 @@ h2 {
     justify-content: start;
     width: 100%;
 }
-
-/* .contactDiv div {
-    margin: 0px 30px;
-} */
 
 .contactDiv h2 {
     color: #ffffff;
@@ -318,7 +315,6 @@ h2 {
 
 #img1Container {
     background-image: -webkit-linear-gradient(105deg, white 50%, darkcyan 50%);
-    /* background-image: url(fox1Sqr.jpg); */
     padding-bottom: 400px;
 }
 
@@ -396,12 +392,17 @@ h2 {
 }
 
 .bot {
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
     flex-direction: row;
     justify-content: center;
     align-items: start;
     padding: 35px 30px;
     padding-bottom: 0px;
+}
+
+.contactDiv {
+    transform: scale(1.1);
+    margin-right: 10px;
 }
 
 .bot h2 {
@@ -459,6 +460,7 @@ h2 {
 }
 
 #imgText3 {
+    display: block;
     color: white;
     font-size: 40px;
     font-family: 'Playfair Display';
@@ -520,12 +522,8 @@ h2 {
     margin: 0px 80px;
 }
 
-.cardBot, .cardTop {
-    max-width: 320px;
-}
-
 .bot {
-    background-color: hotpink;
+    /* background-color: hotpink; */
     padding: 80px;
     display: flex;
     flex-direction: row;
@@ -534,7 +532,6 @@ h2 {
 
 .contactDiv {
     transform: scale(1.2);
-    /* margin: 30px 60px; */
     max-width: 350px;
 }
 
